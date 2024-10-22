@@ -1,0 +1,29 @@
+/* index.css ou App.css */
+
+nav {
+    background-color: #007BFF; /* Cor de fundo da navegação */
+    padding: 10px;             /* Espaçamento interno */
+    border-radius: 8px;       /* Bordas arredondadas */
+  }
+  
+  nav ul {
+    list-style-type: none;     /* Remove os marcadores da lista */
+    padding: 0;                /* Remove o padding da lista */
+    display: flex;             /* Usar flexbox para alinhar os itens */
+    justify-content: space-around; /* Espaço igual entre os itens */
+  }
+  
+  nav li {
+    margin: 0 15px;           /* Espaçamento entre os itens da lista */
+  }
+  
+  nav a {
+    color: white;             /* Cor do texto dos links */
+    text-decoration: none;    /* Remove o sublinhado dos links */
+    font-weight: bold;        /* Deixa o texto em negrito */
+  }
+  
+  nav a:hover {
+    text-decoration: underline; /* Sublinha o link ao passar o mouse */
+  }
+  
